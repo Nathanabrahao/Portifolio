@@ -1,10 +1,14 @@
 import React from 'react'
+import NavBarHeader from '../../navbar';
 
-interface Props {}
+interface Props { }
 
 const AboutMe = (props: Props) => {
-    return(
-        <div>AboutMe</div>
+    return (
+        <><header className="App-header">
+            <NavBarHeader />
+        </header>
+        <div>AboutMe</div></>
     )
 }
 
