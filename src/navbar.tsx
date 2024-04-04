@@ -11,7 +11,7 @@ function NavBarHeader() {
                         <Nav.Link className='menu__topics menu__home' href="homePage">Home</Nav.Link>
                         <Nav.Link className='menu__topics menu__aboutMe' href="aboutMe">About me</Nav.Link>
                         <Nav.Link className='menu__topics menu__contact' href="contact">Contact</Nav.Link>
-                        <Nav.Link className='menu__topics menu__experience' href='#Experience'>Experience</Nav.Link>
+                        <Nav.Link className='menu__topics menu__experience' href='Experience'>Experience</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

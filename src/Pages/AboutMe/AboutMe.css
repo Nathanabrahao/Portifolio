@@ -1,0 +1,47 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+.About_body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.About__Title{
+    font-size: 3.5cm;
+    max-height: 50%;
+}
+
+.About__Content {
+    max-width: 50%;
+}
+
+.Experience__aboutMe{
+    text-decoration: none;
+    Color: #F0F0F0;
+    font-weight: bold;
+}
+
+.Resident_Evil{
+    text-decoration: none;
+    Color: #F0F0F0;
+    font-weight: bold;
+}
+
+.A_Sutil_Arte_de_ligar_o_fodasse{
+    text-decoration: none;
+    Color: #F0F0F0;
+    font-weight: bold;
+}
+
+
+.Nathan_picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
