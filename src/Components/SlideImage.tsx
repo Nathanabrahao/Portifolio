@@ -26,7 +26,7 @@ export function ImageSlider({ imageUrls }: ImageSliderProps) {
         })  
     }
 
-    return <div style={{ width: "100%", height: "100%", position: "relative" }}>
+    return <div style={{ width: "100%", height: "100%", position: "relative", padding: "10px" }}>
         <img src={imageUrls[imageIndex]} className='Nathan_picture' />
         <button onClick={showPrevImage} className='img-slider-btn' style={{ left: 0 }}>
             <ArrowBigLeft />

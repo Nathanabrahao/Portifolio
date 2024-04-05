@@ -6,11 +6,11 @@ interface Props { }
 
 const HomePage = (props: Props) => {
     return (
-        <div className="App">
+        <div className="App" >
             <header className="App-header">
                 <NavBarHeader />
             </header>
-            <body className='App-body'>
+            <body className='App-body' >
                 <h1 className='Main-name'>
                     Nathan Abrahão
                 </h1>

@@ -6,6 +6,8 @@ import Nathan_Elevador from '../../Images/Nathan_Elevador.jpg'
 import Nathan_Praia from '../../Images/Nathan_Praia.jpg'
 import Nathan_barba from '../../Images/Nathan_barba.jpg'
 import { ImageSlider } from '../../Components/SlideImage';
+import { motion } from 'framer-motion';
+
 
 
 
@@ -56,7 +58,7 @@ const AboutMe = (props: Props) => {
                         </p>
                     </div>
                 </div>
-                <div
+                <motion.div whileHover={{ scale: 1.2 }}
                     style={{
                         maxWidth: "500px",
                         width: "100%",
@@ -64,7 +66,7 @@ const AboutMe = (props: Props) => {
                         margin: "0 auto"
                     }}>
                     <ImageSlider imageUrls={images} />
-                </div>
+                </motion.div>
             </body>
         </>
     )

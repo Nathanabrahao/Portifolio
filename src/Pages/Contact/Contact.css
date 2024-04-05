@@ -1,0 +1,45 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 200px;
+}
+
+.contact-item {
+    border: 1px solid white;
+    padding: 115px;
+    font-size: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 50px; 
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+.contact-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+    color: #000000;
+    transition: 500ms linear;  
+}
+
+.github__area:hover {
+    background-image: url('../../Images/github.menu.page.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.linkedin__area:hover{
+    background-image: url('../../Images/linkedin.menu.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.gmail__area:hover{
+    background-image: url('../../Images/gmail.menu.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
