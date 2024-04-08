@@ -1,7 +1,11 @@
 import React from "react"
 import { SocialIcon } from "react-social-icons"
 import { AiOutlineConsoleSql } from "react-icons/ai";
-import { SiSap, SiMicrosoftsharepoint, SiPowerautomate } from "react-icons/si";
+import { SiSap, SiMicrosoftsharepoint, SiPowerautomate, SiHtml5, SiTypescript, SiAngular } from "react-icons/si";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa6";
+
 
 export const socialMedias = {
     github: {
@@ -41,5 +45,29 @@ export const socialSkills = {
     powerAutomate: {
         name:"powerAutomate",
         icon: <SiPowerautomate />
+    },
+    js: {
+        name:"javascript",
+        icon: <IoLogoJavascript />
+    },
+    html: {
+        name:"html",
+        icon: <SiHtml5 />
+    },
+    css: {
+        name:"css",
+        icon: <IoLogoCss3 /> 
+    },
+    tss: {
+        name:"typscript",
+        icon: <SiTypescript />
+    },
+    react: {
+        name:"react",
+        icon: <FaReact />
+    },
+    angular: {
+        name:"angular",
+        icon: <SiAngular />
     }
 }

@@ -2,23 +2,23 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 100px;
+    padding: 80px;
 }
 
 
 .experience__info{
-    border: 1px solid white;
-    padding: 115px;
+    border: 1px solid #000000;;
+    padding: 85px;
     font-size: 20px;
     text-align: center;
     flex: 1;
     margin: 0 50px; 
     text-decoration: none;
-    color: #F0F0F0;
+    color: #000000;
 }
 
 .icon_skills{
-    font-size: 2.5em; 
+    font-size: 1.5em; 
 }
 
 .Title__Company{

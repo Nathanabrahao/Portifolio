@@ -4,17 +4,19 @@ import HomePage from "../Pages/HomePage/HomePage";
 import AboutMe from "../Pages/AboutMe/AboutMe";
 import Contact from "../Pages/Contact/Contact";
 import Experience from "../Pages/Experience/Experience";
+import Projects from "../Pages/Projects/Projects";
 
 export const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
         children: [
-            {path: "", element: <HomePage />},
-            {path: "homePage", element: <HomePage />},
-            {path: "aboutMe", element: <AboutMe />},
-            {path: "Contact", element: <Contact />},
-            {path: "Experience", element: <Experience />}
+            { path: "", element: <HomePage /> },
+            { path: "homePage", element: <HomePage /> },
+            { path: "aboutMe", element: <AboutMe /> },
+            { path: "Contact", element: <Contact /> },
+            { path: "Experience", element: <Experience /> },
+            { path: "Projects", element: <Projects /> }
         ]
     }
 ])

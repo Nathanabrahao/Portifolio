@@ -3,23 +3,24 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 200px;
+    margin-bottom: 100px;
 }
 
 .contact-item {
-    border: 1px solid white;
+    border: 1px solid #000000;
     padding: 115px;
     font-size: 20px;
     text-align: center;
     flex: 1;
     margin: 0 50px; 
     text-decoration: none;
-    color: #F0F0F0;
+    color: #000000;
 }
 
 .contact-item:hover {
     background-color: rgba(255, 255, 255, 0.1);
     transform: scale(1.1);
-    color: #000000;
+    color: #080505;
     transition: 500ms linear;  
 }
 

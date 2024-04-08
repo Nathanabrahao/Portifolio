@@ -9,6 +9,8 @@
     text-align: center;
     justify-content: space-between;
     padding: 115px;
+    color: #000000;
+    margin-bottom: 150px;
 }
 
 .About__Title{
@@ -22,19 +24,19 @@
 
 .Experience__aboutMe{
     text-decoration: none;
-    Color: #F0F0F0;
+    Color: #000000;
     font-weight: bold;
 }
 
 .Resident_Evil{
     text-decoration: none;
-    Color: #F0F0F0;
+    Color: #000000;
     font-weight: bold;
 }
 
 .A_Sutil_Arte_de_ligar_o_fodasse{
     text-decoration: none;
-    Color: #F0F0F0;
+    Color: #000000;
     font-weight: bold;
 }
 
