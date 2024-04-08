@@ -1,0 +1,40 @@
+.experience__body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+
+.experience__info{
+    border: 1px solid white;
+    padding: 115px;
+    font-size: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 50px; 
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+.icon_skills{
+    font-size: 2.5em; 
+}
+
+.Title__Company{
+    font-size: 80px;
+}
+
+.Info__job{
+    font-size: 0.75em;
+    flex: 1;
+}
+
+.sede__cebrace{
+    margin-left: 20px;
+}
+
+.Infos{
+    display: flex;
+    flex-direction: row;
+}

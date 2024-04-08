@@ -1,6 +1,7 @@
 import React from "react"
 import { SocialIcon } from "react-social-icons"
-
+import { AiOutlineConsoleSql } from "react-icons/ai";
+import { SiSap, SiMicrosoftsharepoint, SiPowerautomate } from "react-icons/si";
 
 export const socialMedias = {
     github: {
@@ -24,4 +25,21 @@ export const socialMedias = {
 };
 
 
-
+export const socialSkills = {
+    sql: {
+        name: "SQL",
+        icon: <AiOutlineConsoleSql />
+    },
+    sap: {
+        name: "Sap - Abap",
+        icon: <SiSap />
+    },
+    sharepoint: {
+        name: "sharepoint",
+        icon: <SiMicrosoftsharepoint />
+    },
+    powerAutomate: {
+        name:"powerAutomate",
+        icon: <SiPowerautomate />
+    }
+}
