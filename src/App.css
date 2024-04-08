@@ -16,7 +16,8 @@ body {
 .website {
   margin: 20px auto;
   max-width: auto;
-  border: 1px solid #000000;
+  border: solid 10px;
+  border-radius: 3em;
   padding: 0px;
   margin-top: 10px;
   margin-left: 10px;
