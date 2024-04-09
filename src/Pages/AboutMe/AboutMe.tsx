@@ -24,18 +24,18 @@ const AboutMe = (props: Props) => {
         </header>
             <body className='About_body'>
                 <div><h1 className='About__Title'>
-                    Who it's me?
+                    About Me
                 </h1>
                     <div>
                         <p>
-                            My name is Nathan Bittencourt Abdon Abrahão, i have 23 years old and i'm brazilian
+                            My name is Nathan Bittencourt Abdon Abrahão. I am 23 years old and I'm Brazilian.
                             <br></br>
-                            I'm front end developer, gamer, reader and streamer.
+                            I'm a front-end developer, gamer, reader, and streamer.
                         </p>
                     </div>
                     <div>
                         <p>
-                            I'm like so much all games for to <a
+                            I really enjoy playing all games, especially <a
                                 className="Resident_Evil"
                                 href="https://pt.wikipedia.org/wiki/Resident_Evil"
                                 target="_blank"
@@ -43,7 +43,7 @@ const AboutMe = (props: Props) => {
                             >
                                 Resident Evil ,
                             </a>
-                            my favorite book for this moment is
+                            My favorite book at the moment is
                             <a
                                 className="A_Sutil_Arte_de_ligar_o_fodasse"
                                 href="https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_F*ck"
@@ -53,7 +53,7 @@ const AboutMe = (props: Props) => {
                                 "The subtle art of not giving a f#ck"
                             </a>
                             <br></br>
-                            I'm go to migration my knoledge to Front End knoledge, this because my experience it's about SQL and another things, but this i show you im my
+                            I'm transitioning my knowledge to front-end development because my experience is mainly in SQL and other areas, but I will detail this in my
                             <a className='Experience__aboutMe' href='Experience'> Experience</a>
                         </p>
                     </div>
