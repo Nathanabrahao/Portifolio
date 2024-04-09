@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 body {
   color: #ECE4DC;
 }
@@ -32,7 +31,7 @@ body {
 
 .menu {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding-top: 0.5cm;
   padding-left: 1cm;
   padding-right: 1cm;
@@ -51,7 +50,39 @@ nav a {
 
 
 @media (max-width: 480px) {
+  #root{
+    padding: 20px;
+    width: 420px;
+    max-height: 1300px;
+  }
+
+  .website {
+    border: solid 5px;
+    border-radius: 1em;
+    padding: 0px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .App-header {
+    height: 40px;
+    border-bottom: 1px solid #000000;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding: 10px;
+  }
+}
+
+
+
+@media (min-width: 490px) and (max-width:630px) {
   #root {
-    color: red;
+    max-width: 2200px;
+    max-height: 1000px;
   }
 }
