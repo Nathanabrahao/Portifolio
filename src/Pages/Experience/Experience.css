@@ -38,3 +38,32 @@
     display: flex;
     flex-direction: row;
 }
+
+@media (max-width: 480px) {
+    .experience__body{
+        display: inline;
+        justify-content:center;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .experience__info{
+        padding: 45px;
+        font-size: 15px;
+        text-align: center;
+        flex: 0;
+        margin: 0 5px;
+        order: 2; 
+    }
+
+    .Title__Company{
+        font-size: 50px;
+        order:1 ;
+    }
+
+    .sede__cebrace{
+        display: none;
+        order: 3;
+    }
+
+}    
