@@ -31,12 +31,5 @@ export const projectsGit: ProjectsGit = {
         label: "Angular_users",
         img: table,
         text: "This is a 24-hour challenge. I need to create a table where I can read, write, update, and delete users and tasks. I will be completing this challenge using Angular."
-    },
-    flapyBird: {
-        name: "flapyBird",
-        url: "https://flappy-bird-em-js.vercel.app/",
-        label: "flapyBird",
-        img: flapy,
-        text: "The game FlappyBird"
     }
 };
