@@ -15,9 +15,11 @@ const Experience = (props: Props) => {
             <div className="experience__body">
                 <div className="experience__info">
                     <div className="icon_skills">{socialSkills.sql.icon}{socialSkills.sap.icon}{socialSkills.sharepoint.icon}{socialSkills.powerAutomate.icon}</div>
-                    <h1 className="Title__Company">Cebrace</h1>
+                    <h1 className="Title__Company">Development Intern</h1>
                     <div className="Infos">
-                        <div><p className="Info__job">During the internship process, I worked as an SQL analyst, responsible for creating scripts, performing backups, fixing errors in jobs and schemas, and overall database administration.
+                        <div>
+                            <h3>Company: Cebrace</h3>
+                            <p className="Info__job">During the internship process, I worked as an SQL analyst, responsible for creating scripts, performing backups, fixing errors in jobs and schemas, and overall database administration.
 
                             After the first year, I expanded my responsibilities by also taking on the role of ABAP-SAP and CPI-SAP developer. In this role, I actively participated in SAP development, creating and enhancing environments for users. Additionally, I played a crucial role in creating integrations in CPI, developing API routes, and working with technologies such as REST and Integration Flow.
 
