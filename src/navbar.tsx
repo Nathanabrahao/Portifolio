@@ -31,6 +31,9 @@ function NavBarHeader() {
                         <motion.div whileHover={{ scale: 1.2 }}>
                             <Nav.Link className={`menu__topics menu__experience ${activePage === '/Experience' ? 'active' : ''}`} href='Experience'>Jobs</Nav.Link>
                         </motion.div>
+                        <motion.div whileHover={{ scale: 1.2 }}>
+                            <Nav.Link className={`menu__topics menu__projects ${activePage === '/Projects' ? 'active' : ''}`} href='Projects'>All Projects</Nav.Link>
+                        </motion.div>
                     </Nav>
                 </Container>
             </Navbar>

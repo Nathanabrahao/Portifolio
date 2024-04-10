@@ -59,4 +59,33 @@
         width: auto;
         border: transparent;
     }
+
+    .contact-item:hover {
+        background-color: transparent;
+        transform: scale(1.0);
+        color: #080505;
+        transition: 500ms linear;
+    }
+
+    .github__area:hover {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5;
+    }
+    
+    .linkedin__area:hover {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5;
+    }
+    
+    .gmail__area:hover {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5;
+    }
+
 }

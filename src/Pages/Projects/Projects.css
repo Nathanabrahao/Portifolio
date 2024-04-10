@@ -1,0 +1,35 @@
+.projects_body{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.project_icon{
+    padding: 5em 1em 1em 1em;
+}
+
+.text__project{
+    text-decoration: none;   
+}
+
+.projects__images {
+    object-fit: cover;
+    width: 480px;
+    height: 450px;
+    display: block;
+}
+
+
+@media (max-width: 490px){
+    .projects_body{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .projects__images {
+        object-fit: cover;
+        width: 350px;
+        height: 300px;
+        display: block;
+    }
+
+}
