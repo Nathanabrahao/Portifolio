@@ -2,9 +2,6 @@ import React from 'react'
 import NavBarHeader from '../../navbar';
 import "../AboutMe/AboutMe.css"
 import Foto_Nathan from '../../Images/Foto_Nathan.jpg'
-import Nathan_Elevador from '../../Images/Nathan_Elevador.jpg'
-import Nathan_Praia from '../../Images/Nathan_Praia.jpg'
-import Nathan_barba from '../../Images/Nathan_barba.jpg'
 import { ImageSlider } from '../../Components/SlideImage';
 import { motion } from 'framer-motion';
 
@@ -13,7 +10,7 @@ import { motion } from 'framer-motion';
 
 interface Props { }
 
-const images = [Foto_Nathan, Nathan_Elevador, Nathan_Praia, Nathan_barba]
+const images = [Foto_Nathan]
 
 
 
@@ -58,15 +55,18 @@ const AboutMe = (props: Props) => {
                         </p>
                     </div>
                 </div>
-                <motion.div whileHover={{ scale: 1.2 }}
+                <motion.img
+                    src={Foto_Nathan}
+                    alt="Nathan"
+                    className="Nathan__picture"
+                    whileHover={{}}
                     style={{
                         maxWidth: "500px",
                         width: "100%",
                         aspectRatio: "10 / 9",
                         margin: "0 auto"
-                    }}>
-                    <ImageSlider imageUrls={images} />
-                </motion.div>
+                    }}
+                />
             </body>
         </>
     )
