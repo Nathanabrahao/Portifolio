@@ -1,6 +1,11 @@
 .projects_body{
     padding-top: 3em;
     padding-bottom: 3em;
+    text-decoration: none;
+}
+
+body{
+    text-decoration: none;
 }
 
 .project_icon{
