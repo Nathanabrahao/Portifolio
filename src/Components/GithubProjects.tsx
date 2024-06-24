@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons"
 import recognize from "../../src/Images/recognize_number.png"
 import table from "../../src/Images/table_angular.png"
 import webPlayer from "../../src/Images/Web_Player.png"
-import Rtodo from "../../src/Images/Todo_React"
+import Rtodo from "../../src/Images/Todo_React.png"
 import "../Pages/Projects/Projects.css"
 
 type Project = {
