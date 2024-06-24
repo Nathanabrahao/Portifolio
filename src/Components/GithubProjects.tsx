@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons"
 import recognize from "../../src/Images/recognize_number.png"
 import table from "../../src/Images/table_angular.png"
 import webPlayer from "../../src/Images/Web_Player.png"
+import Rtodo from "../../src/Images/Todo_React"
 import "../Pages/Projects/Projects.css"
 
 type Project = {
@@ -24,6 +25,13 @@ export const projectsGit: ProjectsGit = {
         label: "Web_player",
         img: webPlayer,
         text: "This is a web player project, where all the songs is created with Udio(IA creator song), this project show web player active and songs created with my creativity"
+    },
+    React_TODO: {
+        name: "react todo",
+        url: "https://todo-react-ts-iota.vercel.app/",
+        label: "TODO",
+        img: Rtodo,
+        text: "In this project, you created, edit and delete, tasks where you subject the name and the difficulty to realized"
     },
     Tables_Angular: {
         name: "tables_angular",
