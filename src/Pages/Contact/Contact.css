@@ -7,7 +7,6 @@
 }
 
 .contact-item {
-    border: 1px solid #000000;
     padding: 115px;
     font-size: 20px;
     text-align: center;
@@ -15,6 +14,8 @@
     margin: 0 50px;
     text-decoration: none;
     color: #000000;
+    border: solid 1px;
+    border-radius: 3em;
 }
 
 .contact-item:hover {
@@ -24,38 +25,18 @@
     transition: 500ms linear;
 }
 
-.github__area:hover {
-    background-image: url('../../Images/github.menu.page.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-}
-
-.linkedin__area:hover {
-    background-image: url('../../Images/linkedin.menu.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-}
-
-.gmail__area:hover {
-    background-image: url('../../Images/gmail.menu.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-}
 
 
 @media (max-width: 480px) {
     .contact-container {
         flex-direction: column;
-        padding: 5px; 
+        padding: 5px;
         margin: auto;
         align-items: center;
     }
 
     .contact-item {
-        margin: 20px 0; 
+        margin: 20px 0;
         width: auto;
         border: transparent;
     }
@@ -73,14 +54,14 @@
         background-position: center;
         opacity: 0.5;
     }
-    
+
     .linkedin__area:hover {
         background-image: none;
         background-size: cover;
         background-position: center;
         opacity: 0.5;
     }
-    
+
     .gmail__area:hover {
         background-image: none;
         background-size: cover;

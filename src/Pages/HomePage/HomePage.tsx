@@ -2,6 +2,7 @@ import React from 'react'
 import "../HomePage/HomePage.css"
 import NavBarHeader from '../../navbar';
 import { socialSkills } from '../../Components/SocialMedias';
+import CV from '../../Cv.pdf';
 
 interface Props { }
 
@@ -16,10 +17,18 @@ const HomePage = (props: Props) => {
                     Nathan Abrahão
                 </h1>
                 <p className='text_main'>
-                    I'm front end developer, gamer and reader
+                    I'm full stack developer, gamer and reader
+                    <br />
+                    FrontEnd Engineer using HTML, CSS, JavaScript, TypeScript, React, Angular
+                    <br />
+                    BackEnd Engineer using Node.js, Express.js, MongoDB, SQL, Java, Python, C#
+                    <br />
+                    <a href={CV} download="Curriculo" className='download-cv-button'>
+                        Download CV
+                    </a>
                 </p>
                 <div className="icon__skills">{socialSkills.html.icon}{socialSkills.css.icon}{socialSkills.js.icon}{socialSkills.tss.icon}{socialSkills.react.icon}
-                {socialSkills.angular.icon}{socialSkills.sql.icon}</div>
+                {socialSkills.angular.icon}{socialSkills.sql.icon}{socialSkills.nodejs.icon}{socialSkills.java.icon}{socialSkills.python.icon}</div>
             </body>
         </div>
     )

@@ -27,7 +27,7 @@ const AboutMe = (props: Props) => {
                         <p>
                             My name is Nathan Bittencourt Abdon Abrahão. I am 23 years old and I'm Brazilian.
                             <br></br>
-                            I'm a front-end developer, gamer, reader, and streamer.
+                            I'm a full stack developer, gamer, reader, and streamer.
                         </p>
                     </div>
                     <div>

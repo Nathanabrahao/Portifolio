@@ -5,7 +5,7 @@ import { SiSap, SiMicrosoftsharepoint, SiPowerautomate, SiHtml5, SiTypescript, S
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa6";
-
+import { FaNode, FaJava, FaPython } from "react-icons/fa";
 
 export const socialMedias = {
     github: {
@@ -69,5 +69,17 @@ export const socialSkills = {
     angular: {
         name:"angular",
         icon: <SiAngular />
+    },
+    nodejs: {
+        name:"nodejs",
+        icon: <FaNode />
+    },
+    java: {
+        name:"java",
+        icon: <FaJava />
+    },
+    python: {
+        name:"python",
+        icon: <FaPython />
     }
 }
