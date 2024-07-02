@@ -23,10 +23,10 @@ const HomePage = (props: Props) => {
                     <br />
                     BackEnd Engineer using Node.js, Express.js, MongoDB, SQL, Java, Python, C#
                     <br />
-                    <a href={CV} download="Curriculo" className='download-cv-button'>
+                </p>
+                <a href={CV} download="Curriculo" className='download-cv-button'>
                         Download CV
                     </a>
-                </p>
                 <div className="icon__skills">{socialSkills.html.icon}{socialSkills.css.icon}{socialSkills.js.icon}{socialSkills.tss.icon}{socialSkills.react.icon}
                 {socialSkills.angular.icon}{socialSkills.sql.icon}{socialSkills.nodejs.icon}{socialSkills.java.icon}{socialSkills.python.icon}</div>
             </body>

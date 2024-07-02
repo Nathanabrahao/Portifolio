@@ -27,7 +27,7 @@ const Projects = (props: Props) => {
                         maxWidth: "500px",
                         width: "100%",
                         aspectRatio: "10 / 9",
-                        margin: "0 auto"
+                        margin: "0 auto",
                     }}>
                     <SiteSlider sites={sites} />
                 </motion.div>

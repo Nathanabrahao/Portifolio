@@ -10,6 +10,7 @@ body{
 
 .project_icon{
     padding: 5em 1em 1em 1em;
+    text-decoration: none;
 }
 
 .text__project{
@@ -21,6 +22,7 @@ body{
     width: 480px;
     height: 450px;
     display: block;
+    text-decoration: none;
 }
 
 
